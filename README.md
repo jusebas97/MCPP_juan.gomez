@@ -35,7 +35,7 @@ El estudio de estos 4 repositorios tiene 2 ventajas claras:
 
 2. limpieza y almacenamiento de datos
 
-    - Se scrapeo cada repositorio por separado, mpleando una función main que creé, la cual retorna una lista de diccionarios, por lo cual la convertí a un Dataframe usando la librería Pandas para cada repositorio, cuyo código puede se rencontrado [aquí](https://github.com/jusebas97/MCPP_juan.gomez/tree/master/Proyecto%20Final/Extracci%C3%B3n%20de%20datos). 
+    - Se scrapeo cada repositorio por separado, mpleando una función main que creé, la cual retorna una lista de diccionarios, por lo cual la convertí a un Dataframe usando la librería Pandas para cada repositorio, cuyo código puede ser encontrado [aquí](https://github.com/jusebas97/MCPP_juan.gomez/tree/master/Proyecto%20Final/Extracci%C3%B3n%20de%20datos). 
     - Creé una función "clean_date()" para limpiar la columna de fechas y convertir los strings con caracteres a solo los años como integrers, usando la librería 're' para usar expresiones regulares y hacer el filtrado. 
     - Para limpiar cada título cree una función "clean_titulo()" que usando las libreria de NLTK me ayudaba a eliminar signos de puntiación, poner todas las palabras en minúscula, tokenizar los títulos, y eliminar las stopwords en espeñol, usando NLTK y una lista que yo definí.
     - Finalmente, cada Data Frame se almacena como un archivo pickle, que luego permitió unir todos los Data frames para crear un archivo general. Los archivos se encuentran en esta [carpeta](https://github.com/jusebas97/MCPP_juan.gomez/tree/master/Proyecto%20Final/Archivos%20repositorios).
